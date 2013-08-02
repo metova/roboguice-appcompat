@@ -27,7 +27,7 @@ import android.support.v7.app.ActionBarActivity;
 import com.google.inject.Inject;
 import com.google.inject.Key;
 
-public class RoboAppCompatActivity extends ActionBarActivity implements RoboContext {
+public class RoboActionBarActivity extends ActionBarActivity implements RoboContext {
 
     protected EventManager eventManager;
     protected HashMap<Key<?>, Object> scopedObjects = new HashMap<Key<?>, Object>();

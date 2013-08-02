@@ -8,11 +8,11 @@
 	</parent>
 	<groupId>com.metova</groupId>
 	<artifactId>roboguice-appcompat</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 	<name>roboguice-appcompat</name>
 	<description>RoboGuice AppCompat classes</description>
-	
+
 	<properties>
 		<android.support.version>18</android.support.version>
 		<android.version>4.1.1.4</android.version>
@@ -62,7 +62,7 @@
 		<dependency>
 			<groupId>org.roboguice</groupId>
 			<artifactId>roboguice</artifactId>
-			<version>2.0</version>
+			<version>2.0.metova-2</version>
 		</dependency>
 	</dependencies>
 	<distributionManagement>
